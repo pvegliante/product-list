@@ -1,0 +1,18 @@
+homework 5/30 -
+
+  -style with bootstrap
+
+  -parent component
+    - firstName
+    - lastName
+    - gender
+    - age
+    - cool? (boolean) are you the cool parent
+
+  -Child Component
+    -firstName
+    -lastName
+    -gender
+    -age (dynamic)
+    -numberOfToys (dynamic)
+    -coolKid? (boolean) Is this your cool kid?
