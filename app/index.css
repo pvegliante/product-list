@@ -5,6 +5,7 @@
   border: 2px solid;
   flex-direction: column;
   padding: 0px 30px;
+  padding-bottom: 10px;
   letter-spacing: .5px;
   max-width: 40%;
 }
@@ -15,6 +16,7 @@
 
 .item {
   border-bottom: .5px solid black;
+  margin-top: 15px;
 }
 
 .image {
@@ -29,10 +31,30 @@
   border-top: none;
   /*background-color: white;*/
   box-shadow: 0px 6px 15px -1px rgba(0, 0, 0, .5);
+  transition: 1.5s ease-in-out
+}
+
+.productimage:hover {
+  transform: rotateY(360deg) scale(1.1);
+  transform-origin: right 100px;
 }
 
 .caret {
   height: 10px;
   width: 10px;
   background-color: black;
+}
+
+.uparrow {
+  height: 30px;
+  padding-top: 30px;
+  transition:.1s ease-in;
+}
+
+.uparrow:hover {
+  transform: scale(1.4);
+}
+
+.avatarimage {
+  border-radius: 30px;
 }

@@ -9,7 +9,7 @@
       description: 'On-demand sand castle construction expertise.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'app/images/avatars/128.jpg',
+      submitterAvatarUrl: 'app/avatars/128.jpg',
       productImageUrl: 'app/images/yellow_pail.png',
     },
     {
@@ -18,8 +18,8 @@
       description: 'Earn points when your favorite politicians pass legislation.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'app/images/avatars/129.png',
-      productImageUrl: 'images/supermajority.png',
+      submitterAvatarUrl: 'app/avatars/129.jpg',
+      productImageUrl: 'app/images/supermajority.png',
     },
     {
       id: 3,
@@ -27,8 +27,8 @@
       description: 'We already have your measurements and shipping address.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'app/images/avatars/130.jpg',
-      productImageUrl: 'images/tinhat.png',
+      submitterAvatarUrl: 'app/avatars/130.jpg',
+      productImageUrl: 'app/images/tinhat.png',
     },
     {
       id: 4,
@@ -36,8 +36,8 @@
       description: 'High-minded or absent-minded? You decide.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'app/images/avatars/131.png',
-      productImageUrl: 'images/haught_naught/.png',
+      submitterAvatarUrl: 'app/avatars/131.jpg',
+      productImageUrl: 'app/images/haught_naught.png',
     },
   ];
 

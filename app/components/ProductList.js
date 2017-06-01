@@ -22,7 +22,7 @@ class Product extends React.Component {
       <div className="content">
         <div className="header">
           <a onClick={this.handleProductUpVote}>
-            <img src={this.props.productImageUrl} />
+            <img className="uparrow" src='app/images/uparrow.png' />
           </a>
           {this.props.votes}
         </div>
@@ -35,7 +35,7 @@ class Product extends React.Component {
         <div className="extra">
           <span>Submitted by:</span>
           <img
-            className="avatar image"
+            className="avatarimage"
             src={this.props.submitterAvatarUrl}
           />
         </div>
@@ -56,7 +56,7 @@ class ProductList extends React.Component {
     this.handleProductUpVote = this.handleProductUpVote.bind(this)
   }
 
-  componentsDidMount() {
+  componentDidMount() {
     this.setState({ products: products });
   }
 
